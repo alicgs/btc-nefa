@@ -1,0 +1,95 @@
+#world-img{
+    max-width: 850px !important;
+    flex-shrink: 0;
+    top: 5px;
+} 
+
+#ellipseOne{
+    z-index: -1;
+    position: absolute;
+    top: 240px ;
+    left: 65rem;
+    -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+}
+
+#ellipsetwo{
+    z-index: -1;
+    position: absolute;
+    right: 180px;
+    top: 630px;
+    -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+}
+
+#ellipsetree{
+    z-index: -1;
+    position: absolute;
+    left: 200px;
+    top: 765px;
+    -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+}
+
+
+#startone{
+    z-index: -1;
+    position: absolute;
+    left: 760px;
+    top: 300px;
+    -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+}
+
+#usd-img{
+    border-radius: 30px;
+    background-image: url("img/usd-little.png"), lightgray 50% / cover no-repeat;
+}
+
+.img-flout{
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.seven-img-one{
+    position: relative;
+    top: -235px  !important;
+    right: -220px;
+}   
+
+.seven-img-two{
+    position: relative;
+    top: -225px  !important;
+    right: -220px;
+}
+
+.buy-img{
+    margin-left: 200px !important;
+}
+
+.advanced-big{
+    margin-left: 120px !important;
+}
+
+/* Use keyframe  */
+@-webkit-keyframes spin{
+    100%{
+        -webkit-transform:rotate(360deg); ;
+    }
+}
+@-moz-keyframes spin{
+    100%{
+        -webkit-transform:rotate(360deg); ;
+    }
+}
+
+@keyframes spin{
+    100%{
+        -webkit-transform:rotate(360deg); ;
+    }
+}

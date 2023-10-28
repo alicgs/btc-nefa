@@ -1,0 +1,98 @@
+nav{
+    background: none;
+    width: 100%;
+    min-height: 110px;
+    .logo{
+        width: 100px;
+    }
+    ul{
+        li{
+            margin-left: 15px;
+            a{
+                font-size: 14px;
+                text-decoration: none;
+                color: #222;
+            }
+        }
+    }
+    .buttons{
+        width: 450px;
+        .nav-button{
+            margin-top: -10px;
+            border-radius: 48px;
+            width: 120px;
+            height: 50px;
+        }
+    }
+    @media (max-width: 1400px) {
+        .buttons{
+            margin-left: -150px;
+        }
+        .navbar-collapse{
+            margin-top: 6px;
+            margin-left: -35px;
+        }
+    }
+}
+
+header{
+    width: 100%;
+    min-height: 900px;
+    background: linear-gradient(158deg, rgba(255,255,255,1) 0%, rgba(221,234,253,1) 90%);
+    .signup-text{
+        font-size: 20px;
+        font-weight: 600;
+        background: var(--GRA-Blue2, linear-gradient(169deg, #3984F4 -6.01%, #0CD3FF 36.87%, #2F7CF0 78.04%, #0E65E8 103.77%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .header-h1{
+        font-size: 68px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 82px;
+        .header-gradient{
+            background: var(--GRA-Blue2, linear-gradient(169deg, #3984F4 -6.01%, #0CD3FF 36.87%, #2F7CF0 78.04%, #0E65E8 103.77%));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    .header-buttons{
+        .header-button{
+            border-radius: 48px;
+            width: 150px;
+            height: 50px;
+            @media (max-width: 991px){
+                width: 500px;
+                height: 60px;
+                margin: 10px;
+                @media (max-width: 536px){
+                    width: 450px;
+                }
+            }
+        }
+    }
+    .header-photo{
+        margin-top: -200px;
+        margin-left: -30px;
+        width: 900px;
+    }
+    .header-circle{
+        width: 28px;
+        height: 28px;
+        flex-shrink: 0;
+        position: absolute;
+        top: 430px;
+        left: -50px;
+    }
+    .header-star{
+        width: 50px;
+        height: 50px;
+        flex-shrink: 0;
+        position: absolute;
+        top: 0;
+        left: 450px;
+    }
+}

@@ -1,0 +1,27 @@
+.btn-pad{
+    padding-left: 27rem;
+}
+
+.btn-log{
+    display: flex;
+    width: 120px;
+    height: 45px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 120px !important;
+}
+
+.btn-alt{
+    display: flex;
+    width: 160px;
+    height: 64px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 120px !important;
+}

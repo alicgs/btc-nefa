@@ -1,0 +1,61 @@
+@media (max-width: 500px) {
+    .header-button{
+        max-width: 100%;
+    }
+    .buy-photo{
+        width: 100% !important;
+        height: auto !important ;
+    }
+    .buy-section .input-group span{
+        width: 180px;
+    }
+    .buy-button{
+        max-width: 100%;
+    }
+    .card-section .card-button button{
+        max-width: 100%;
+    }
+    .responsiv-ok{
+        display: none !important;
+    }
+    .acordion-responsiv{
+        max-width: 100% !important;
+        height: auto !important ;
+    }
+    .left-accordion {
+        margin-left: 0px !important;
+    }
+
+  .advanced-big{
+    position:relative !important;
+    width: 100% !important; 
+    margin-left: auto !important;
+       bottom: 0 !important;
+    }
+    .advanced .row{
+        flex-direction: column-reverse !important;
+    }
+
+    .py-5{
+        padding-top: none !important;
+        padding-bottom: none !important;
+    }
+}
+
+@media (max-width: 820px){
+   
+    
+    
+    
+    
+    
+    
+    .advanced-big{
+        position:relative !important; 
+        margin-left: auto !important;
+           bottom: 0 !important;
+        }
+        .advanced .row{
+            flex-direction: column-reverse !important;
+        }
+}
